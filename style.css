@@ -48,12 +48,22 @@ This is main CSS file that contains custom style rules used in this template
   background: url(images/banner1.jpg) no-repeat;
   background-size: cover;
 }
+
+@media screen and(max-width: 1024px){
+  .im{
+    background: url(images/banner3.jpg) no-repeat;
+    background-size: cover;
+   }
+}
+
 @media screen and (max-width: 575px){
  .im{
+  background: #000;
   background: url(images/banner2.jpg) no-repeat;
   background-size: cover;
  }
 }
+
 
 section .text-container .text-box {
   background-color: transparent;
@@ -75,18 +85,32 @@ section .text-container .text-box h3 {
   }
 
   section .text-container .text-box {
-    background-color: transparent;
-    padding-top: 100px;
+    padding-top: 150px;
     padding-left: 20px;
   }
   section .text-container .text-box h3 {
-    background: transparent;
-    font-size: 30px;
+    font-size: 32px;
     text-align: left;
     width: 200px;
     color: #fff;
   }
+}
 
+@media (max-width: 575px) {
+  section .text-container {
+    flex-direction: column;
+  }
+
+  section .text-container .text-box {
+    padding-top: 50px;
+    padding-left: 20px;
+  }
+  section .text-container .text-box h3 {
+    font-size: 26px;
+    text-align: left;
+    width: 200px;
+    color: #fff;
+  }
 }
 
 .reveal {
@@ -6449,6 +6473,17 @@ tfoot {
       min-height: 500px;
     }
   }
+
+  @media screen and (max-width: 900px){
+    .reviews-content .slick-dots li button:before {
+        font-size: 16px;
+    }
+    #billboard .slide {
+      min-height: 500px;
+    }
+  }
+
+
 
 /* -Gallery Section
 --------------------------------------------------------------*/
