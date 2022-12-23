@@ -44,6 +44,17 @@ This is main CSS file that contains custom style rules used in this template
 /** 1. Normalize
 --------------------------------------------------------------*/
 
+.im{
+  background: url(images/banner1.jpg) no-repeat;
+  background-size: cover;
+}
+@media screen and (max-width: 575px){
+ .im{
+  background: url(images/banner2.jpg) no-repeat;
+  background-size: cover;
+ }
+}
+
 section .text-container .text-box {
   background-color: transparent;
   padding-left: 470px;
@@ -101,6 +112,7 @@ section .text-container .text-box h3 {
     opacity: 1;
   }
 }
+
 
 
 .btn{
