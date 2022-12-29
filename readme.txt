@@ -20,18 +20,6 @@ You can modify and sell it to your clients.
 You don't have to credit us but a link back to templatesjungle.com will be highly appreciated.
 
 
-PROHIBITIONS
-
-You are not permitted to resell or redistribute (paid or free) as it is. 
-
-You cannot use it to build premium templates or themes to be sold on marketplaces.
-
-Even if you want to share the free resource in your blog, you must point it to original TemplatesJungle resource page. 
-
-You cannot host the download file in your website.
-
-
-
 SUPPORT
 
 You can contact us to report any bugs and errors in the template. We will try and fix them immediately although it's a free resource.
